@@ -39,6 +39,6 @@ function bestZibNum(num){
     idx++;
     while (zibonacci(idx) != num){
         idx++
-    }
+    };
     return idx
 };
